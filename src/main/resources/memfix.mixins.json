@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.memfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.2",
+  "mixins": [
+    "world.biome.BiomeMixin",
+    "entity.EntityMixin"
+  ],
+  "client": [],
+  "server": []
+}
